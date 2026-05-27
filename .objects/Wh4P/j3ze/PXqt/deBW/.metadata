@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Industry",
+  "Type": "Element",
+  "Id": "deBWyS7LyESB03O4qLxS7w",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/deBWyS7LyESB03O4qLxS7w",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/PXqtwX-eOU62PfuwDPRH_A",
+  "Created": "2025-12-01T06:32:57.5547418Z",
+  "Updated": "2025-12-01T06:32:57.5547418Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

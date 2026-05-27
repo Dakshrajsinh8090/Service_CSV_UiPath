@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gbM7qwRz70-b5gZQzi5B3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="cd9c8c11-a8e8-4815-a947-f0894fb8089c" CvElementArea="730, 486, 153, 51" CvTextArea="771, 502, 69, 18" CvTextArgument="Add File" CvType="Button" DesignTimeRectangle="733, 488, 148, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl class='custom-file-upload' tag='LABEL' /&gt;" Guid="c7bc1ed8-46b6-43e2-b99d-dd45c4f0b640" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="39496be25d0890e06b0f145e1fb0d3f8.png" xmlns="">04EZEUKR-5EaN17Co4hKpng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

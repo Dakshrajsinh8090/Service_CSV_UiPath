@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bPH8TbVc6kKFmxpo6FSvdQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="caa4bf45-0c30-4e4b-a121-a644a2f22852" CvElementArea="854, 638, 231, 60" CvTextArea="877, 660, 181, 20" CvTextArgument="Get Unicorn Name" CvType="Button" DesignTimeRectangle="857, 640, 225, 55" ElementType="Button" FullSelectorArgument="&lt;webctrl id='getNameButton' tag='BUTTON' /&gt;" Guid="1773e462-1fed-40c1-8f4f-bf93ff7c0f93" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5f7155e058f6cc134c9a7a80c76de149.png" xmlns="">0pbGEB68jMU-j9nSwabtXSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

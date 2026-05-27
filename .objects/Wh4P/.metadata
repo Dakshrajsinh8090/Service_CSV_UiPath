@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome UiPath Demo App",
+  "Type": "App",
+  "Id": "Wh4PzxFqW0KDdPMu7cINoA",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/Wh4PzxFqW0KDdPMu7cINoA",
+  "Created": "2025-11-29T11:53:09.406425Z",
+  "Updated": "2025-11-29T11:53:09.406425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

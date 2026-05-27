@@ -1,0 +1,14 @@
+﻿{
+  "Name": "No. Employees",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "fUq5O5pVpEOh6f54QrdEWQ",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/fUq5O5pVpEOh6f54QrdEWQ",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/PXqtwX-eOU62PfuwDPRH_A",
+  "Created": "2025-12-01T06:38:56.6294016Z",
+  "Updated": "2025-12-01T06:38:56.6294016Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

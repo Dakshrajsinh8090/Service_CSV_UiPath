@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="MVzIPNEEN0ipFjMVP_A0SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAMUExURQgICDNmmY6NkP///zGrQCAAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAR0lEQVQ4T83OMQ4AIAhD0Yr3v7ODk5hCByX8wYG8CLAk+IEPZjNIBYPUCvDeAQA4331CJaDJIF1RAGgyuD8PbvgEaBqIS8ECmugIIc6JmWoAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" Url="https://www.calculator.net/bmi-calculator.html?cage=19&amp;csex=m&amp;cheightfeet=5&amp;cheightinch=10&amp;cpound=160&amp;cheightmeter=173&amp;ckg=69&amp;printit=0&amp;ctype=metric&amp;x=Calculate" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="35d0943a3a2e8ea2ed9a016c7ceb345b.jpg" xmlns="">0zqCQWHI6G0eo_pBD4IOZew</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

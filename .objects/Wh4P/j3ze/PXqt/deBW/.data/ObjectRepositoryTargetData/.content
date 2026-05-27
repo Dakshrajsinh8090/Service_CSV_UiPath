@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t3n-2tonj0ufpwD1u-Qh9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="efd901ca-1fc1-416b-8f05-767425cd73e2" CvElementArea="266, 670, 438, 44" CvType="InputBox" DesignTimeRectangle="269, 671, 435, 40" FullSelectorArgument="&lt;webctrl id='industry-option' tag='SPAN' /&gt;" Guid="605d149a-7240-45fe-b61c-d0fe6f97f3c0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="efd901ca-1fc1-416b-8f05-767425cd73e2" CvTextArea="267, 645, 62, 21" CvTextArgument="Industry" CvType="Text" DesignTimeRectangle="269, 637, 61, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='industry-label' tag='LABEL' type='' class='ms-Label ms-Dropdown-label root-159' aaname='Industry' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Industry' /&gt;" Guid="96b3526e-3ba7-47f7-9ca9-fcaf41144f03" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf07c55b80df7688fdc673d8fa3e2679.png" xmlns="">0PFo07b07aEal3x1-aVQedQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

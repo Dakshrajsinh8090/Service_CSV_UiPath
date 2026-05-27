@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="weszbtDLE0aQdTKb2ffjaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="5ea18fe4-b708-424c-b675-a2e7d12d064e" CvType="AnyWordGroup" DesignTimeRectangle="1309, 320, 34, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" Guid="d0b9cbb5-9afc-47e1-be09-dde548b8f5df" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5ea18fe4-b708-424c-b675-a2e7d12d064e" CvTextArea="1234, 324, 109, 17" CvTextArgument="Job Title: CFO" CvType="Text" DesignTimeRectangle="1236, 320, 107, 23" FuzzySelectorArgument="&lt;webctrl aaname='Job Title: ' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Job Title: CFO' /&gt;" Guid="e9580c66-5f55-48a5-a4e8-d147da73a6a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d8e40428901431941a1532618c7f798.png" xmlns="">0YDpIuEwwVkiL5eriyDrzEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bi3kE5IhZ0m39C8XWF3TOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="e3072440-2abf-4330-953a-958087493560" CvElementArea="743, 318, 454, 54" CvType="InputBox" DesignTimeRectangle="744, 383, 452, 52" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='txtName' tag='INPUT' /&gt;" Guid="2ba225f4-9162-4053-9880-1034a344b9ab" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e3072440-2abf-4330-953a-958087493560" CvElementArea="743, 318, 454, 54" CvType="InputBox" DesignTimeRectangle="744, 352, 190, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='label' tag='SPAN' type='' aaname='What is your name?*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='What is your name?*' /&gt;" Guid="df0e6092-db23-45ef-82ee-fe7a6b41794e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="526ac41cf9384af7f41c25589960a591.png" xmlns="">0Mp9ZzXs4RkeFj-hS0eRK8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tghDO-BPk0yF4LPDHvRcOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="2b1535f5-44ad-4703-bd7a-a97e79959f1d" CvElementArea="742, 383, 455, 55" CvType="InputBox" DesignTimeRectangle="744, 383, 452, 52" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtName' tag='INPUT' type='text' class='text-input set-font' placeholder='Enter your name' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="77f70ca2-8347-43a9-9a65-80ceeed399f8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2b1535f5-44ad-4703-bd7a-a97e79959f1d" CvTextArea="741, 357, 193, 18" CvTextArgument="What is your name?*" CvType="Text" DesignTimeRectangle="744, 352, 190, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='label' tag='SPAN' type='' aaname='What is your name?*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='What is your name?*' /&gt;" Guid="93817695-1d8b-4648-b3f3-620c6e02e21f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4e69e9d7afaec25589ab65a300c06a14.png" xmlns="">04FX-EUJ0hkyELagASuvIxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

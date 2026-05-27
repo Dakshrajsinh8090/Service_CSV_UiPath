@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New Supplier",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "bENQieehaUWpxxsEU5qnLA",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/bENQieehaUWpxxsEU5qnLA",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/PXqtwX-eOU62PfuwDPRH_A",
+  "Created": "2025-11-29T12:12:18.294955Z",
+  "Updated": "2025-11-29T12:12:18.294955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

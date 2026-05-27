@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nzz5jOPIoUqr_9dERNVPig" Reference="ENtcW7luBESDoAZPPL9Wlw/8sZqgZr6ek6KHRldASTWQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="1e0ff961-9f20-4acb-a18d-8266ba72285a" CvElementArea="1317, 913, 149, 43" CvTextArea="1371, 926, 38, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1318, 914, 146, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='saveButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='saveButton' tag='BUTTON' type='button' class='ms-Button ms-Button--primary ms-Grid-col ms-sm12 ms-md12 ms-lg5 root-177' aaname='Save' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="ec7e3e58-7127-45d7-8d8a-7186f42024d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="1e0ff961-9f20-4acb-a18d-8266ba72285a" CvElementArea="1317, 913, 149, 43" CvTextArea="1371, 926, 38, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1335, 922, 113, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id__267' tag='SPAN' type='' class='ms-Button-label label-178' aaname='Save' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="51843d4a-e0de-471d-afcc-6fb6137009b3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="106023b3e103c4969d94b6c36d068b79.png" xmlns="">0RrUBAQ9TPEyvEmkss1MqHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

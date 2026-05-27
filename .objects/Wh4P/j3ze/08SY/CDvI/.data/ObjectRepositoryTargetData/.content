@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wdcWEzeT2kaj8FRLOAUwBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="2b1535f5-44ad-4703-bd7a-a97e79959f1d" CvElementArea="741, 530, 449, 52" CvType="InputBox" DesignTimeRectangle="744, 531, 445, 50" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='selMonth' tag='SELECT' type='' class='down-chevron set-font' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3840f2af-2cd0-43f9-93d2-10543d709c3f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2b1535f5-44ad-4703-bd7a-a97e79959f1d" CvTextArea="741, 504, 264, 18" CvTextArgument="What month were you born?" CvType="Text" DesignTimeRectangle="744, 498, 262, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='What month were you born?' class='label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='What month were you born?' /&gt;" Guid="0399f860-ed83-4150-8e29-ab648606472e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc057d09c8f32d0d9e97f90cc80dbf42.png" xmlns="">0UfJMcqb-_Ua1Ay9ncD-LZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

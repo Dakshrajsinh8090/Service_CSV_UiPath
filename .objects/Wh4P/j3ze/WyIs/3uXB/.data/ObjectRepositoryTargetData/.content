@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ywP6OnVvAE2eZrafsx1p9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="578e7678-4431-451e-9308-c4bb89cb5a72" CvType="AnyWordGroup" DesignTimeRectangle="852, 799, 245, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' type='' class='output-text' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="fba1f798-1c0b-4eab-8470-a0bc48c66888" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="578e7678-4431-451e-9308-c4bb89cb5a72" CvTextArea="847, 741, 240, 18" CvTextArgument="This is your unicorn name" CvType="Text" DesignTimeRectangle="850, 736, 238, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='outputBlock' tag='SPAN' type='' class='output-block-title' aaname='This is your unicorn name' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='This is your unicorn name' /&gt;" Guid="bac6657d-d4ea-45a8-bfdf-ea6c820c8367" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="372001043dcb42efed5bac331c91dfb4.png" xmlns="">0A6AeJ32lBUWNIkLs-ms5cQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

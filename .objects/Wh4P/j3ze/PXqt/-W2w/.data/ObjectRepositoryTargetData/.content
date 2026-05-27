@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RYnc-0TTAECVXhRZp4dYYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="1cb94c3c-ddd4-4726-966f-9c62f03e1033" CvElementArea="1538, 714, 104, 44" CvTextArea="1577, 727, 35, 17" CvTextArgument="Link" CvType="Button" DesignTimeRectangle="1540, 715, 100, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='ms-Button ms-Button--default root-175' parentid='link-button' tag='BUTTON' type='button' aaname='Link' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Link' /&gt;" Guid="c32b1e2b-9b37-4704-90b0-fcdc0a0e232b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1cb94c3c-ddd4-4726-966f-9c62f03e1033" CvTextArea="1234, 627, 109, 18" CvTextArgument="Job Title: CEO" CvType="Text" DesignTimeRectangle="1236, 624, 107, 23" FuzzySelectorArgument="&lt;webctrl aaname='Job Title: ' type='' tag='SPAN' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Job Title: CEO' /&gt;" Guid="9c9193f2-8425-4515-aae1-6e792204a348" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="207f317b5baf578108d6e7de43bb8d83.png" xmlns="">00u-vtTj6CEm6OLbPIiKbFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

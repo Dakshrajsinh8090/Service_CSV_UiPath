@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add File",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9NftjdM9TUeFYmntj7H2gw",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/9NftjdM9TUeFYmntj7H2gw",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/PXqtwX-eOU62PfuwDPRH_A",
+  "Created": "2025-12-01T06:28:43.2867434Z",
+  "Updated": "2025-12-01T06:28:43.2867434Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

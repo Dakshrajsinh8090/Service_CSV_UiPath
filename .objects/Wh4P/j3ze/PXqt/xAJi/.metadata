@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'Link'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "xAJi3gf5Uk2VZN9X5o1HLw",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/xAJi3gf5Uk2VZN9X5o1HLw",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/PXqtwX-eOU62PfuwDPRH_A",
+  "Created": "2025-11-29T13:30:49.6913002Z",
+  "Updated": "2025-11-29T13:30:49.6913002Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

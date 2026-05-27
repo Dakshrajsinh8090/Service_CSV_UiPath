@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CTS7ZAT7l0KLzhSi2nMVWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" DesignTimeRectangle="481, 424, 569, 45" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid=':k2' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id=':q3' tableRow='1' tag='INPUT' /&gt;" Guid="94199631-e1c3-4ccf-92c5-b807678702eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inbox (9) - dj80902003@gmail.com - Gmail' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ed76136cb690b34e4a7f33aa73cf7064.png" xmlns="">0NjrkAush40CVDqNo6m7TRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

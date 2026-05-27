@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sv5a41wdaE-pOb_kRq6R8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" CvTextArea="404, 459, 162, 18" CvTextArgument="Male Female" CvType="Text" DesignTimeRectangle="369, 448, 292, 40" FullSelectorArgument="&lt;webctrl id='calinputtable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='2' tag='TD' /&gt;" Guid="2b4a5f5c-eb91-46fd-bdf7-e9768ad3e3ad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" CvTextArea="290, 459, 68, 18" CvTextArgument="Gender" CvType="Text" DesignTimeRectangle="290, 448, 77, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='calinputtable' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Gender' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gender' /&gt;" Guid="43bfe8b2-0786-481e-9e47-5d6e3e7b468b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e4f1cf7ff9d9fcc13597ae447053320f.png" xmlns="">0e0tA_n2twUS8vtAc4eBKjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

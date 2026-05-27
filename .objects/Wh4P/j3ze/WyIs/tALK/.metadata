@@ -1,0 +1,14 @@
+﻿{
+  "Name": "What is your name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tALKR53IgEmyhakfcq4L6w",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/tALKR53IgEmyhakfcq4L6w",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/WyIs_IceckKEdYYLS8t7VQ",
+  "Created": "2025-12-04T11:32:23.5362934Z",
+  "Updated": "2025-12-04T11:32:23.5362934Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ygTrAxYOL0CjQObgKqn0Fg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="3734b7ed-98c0-40b0-9112-aed275b08fbd" CvElementArea="1721, 507, 120, 48" CvTextArea="1736, 521, 93, 21" CvTextArgument="Export CSV" CvType="Button" DesignTimeRectangle="1723, 508, 117, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="5b8414f0-89c8-4485-8ac0-d55f697b5476" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c54d44cde50377ac619429f8eeb7eb68.png" xmlns="">0yQPBNiqLd0Sz3U7ksCyFjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

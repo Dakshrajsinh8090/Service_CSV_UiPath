@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wOwol1IgaEi9d3E71KK0oQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="8a95d8c2-c379-49e4-876f-7c3dd2620d97" CvTextArea="1234, 324, 109, 17" CvTextArgument="Job Title: CFO" CvType="Text" DesignTimeRectangle="1236, 320, 107, 23" FullSelectorArgument="&lt;webctrl aaname='Job Title: ' tag='SPAN' /&gt;" Guid="bcef6e18-e0c9-498f-a394-af05c0f529db" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1dd98c41b54f0ad794c22cd60b29e4e5.png" xmlns="">0LccfEBLViUKHwJmWNbymaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

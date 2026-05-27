@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uGikgbsQ3kSgkpRK_mOWsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="c6438251-f18f-409e-be15-aafb46325f40" CvTextArea="404, 511, 162, 18" CvTextArgument="Male Female" CvType="Text" DesignTimeRectangle="369, 501, 292, 39" FullSelectorArgument="&lt;webctrl id='calinputtable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='2' tag='TD' /&gt;" Guid="be2eee0b-f1d5-4ea0-9f57-9d3649e06f7a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62b072dd71ae7561e73a4371d85cb577.png" xmlns="">0Bhh0fqWLgk-RtnxofatOpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

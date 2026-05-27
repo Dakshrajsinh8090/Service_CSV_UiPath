@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Not On Us Check",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "gKQaNaSxy0qhliozNGuHJQ",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/gKQaNaSxy0qhliozNGuHJQ",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/WYgw0VJw70eBBSE67JNmcA",
+  "Created": "2026-05-25T08:13:11.2537683Z",
+  "Updated": "2026-05-25T08:13:11.2537683Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

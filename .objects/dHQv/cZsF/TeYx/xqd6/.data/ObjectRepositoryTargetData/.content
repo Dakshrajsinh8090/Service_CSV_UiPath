@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AlaDTqOeEUCwJrVc4CWVSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a3713ffd-a349-4c3c-a6b0-fc0766b16850" CvTextArea="917, 392, 45, 35" CvTextArgument="11" CvType="Text" DesignTimeRectangle="768, 379, 202, 61" ElementType="Cell" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='D2' cls='XLSpreadsheetCell' name='D2' tableRow='2' /&gt;" Guid="45eeb38d-4924-4bee-8fb1-c222dafb0409" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Main.xlsx - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f8de30af638d6aa6c48b14cde361af19.png" xmlns="">0CeXGCEDt-USgXtq3S1wPEw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

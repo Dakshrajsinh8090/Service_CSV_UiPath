@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DFjn-BJILEWHy6YW87X0iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="323908c9-8961-443b-bd91-5f1a534757b1" CvElementArea="135, 165, 153, 32" CvType="InputBox" DesignTimeRectangle="138, 167, 150, 29" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;ctrl automationid='pass' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="2f1d845c-e618-4d3c-83bf-e73af1ea2922" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UiDemo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="323908c9-8961-443b-bd91-5f1a534757b1" CvTextArea="33, 171, 63, 15" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="35, 169, 62, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Password' role='text' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Password' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Password' /&gt;" Guid="0c8730d0-259b-44a6-81d4-7b8412d0284a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="538f93ae413ab9e9bf006c2fb5ab5e0c.png" xmlns="">0brmg0mlLxEypvM1ad71R6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

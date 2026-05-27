@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KkC6drAEjUicLLLqbf8GjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/findunicornname" CVScreenId="4a1cf15b-7596-4693-9938-b55e0e87ee56" DesignTimeRectangle="852, 799, 160, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' /&gt;" Guid="ff7c9229-1f36-4c40-8979-5313ac27559c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6d02a78fa052d0b2937e8c7a0e3760c3.png" xmlns="">0pfCNyx2XTkGqk5VM2jzi-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

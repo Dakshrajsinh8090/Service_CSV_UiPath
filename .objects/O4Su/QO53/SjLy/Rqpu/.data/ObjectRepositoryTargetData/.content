@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wFfXIHMvokSuQl4beE0fTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="4fb26e0a-e3e2-46a7-9d09-2ba33fdc1a8a" CvElementArea="461, 507, 30, 30" CvTextArea="499, 511, 67, 18" CvTextArgument="Female" CvType="RadioButton" DesignTimeRectangle="465, 509, 102, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='calinputtable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='Female' tableRow='2' tag='LABEL' /&gt;" Guid="8dca49e0-55a0-486f-b826-b0fde7ba1a2b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9a05d1fd85267dbe3720b01044de1aa2.png" xmlns="">03Lz5uElunkiBHpeUl0nB0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

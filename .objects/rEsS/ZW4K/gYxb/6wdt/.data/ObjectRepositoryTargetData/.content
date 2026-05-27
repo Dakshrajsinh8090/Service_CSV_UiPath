@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-vij9BY48UW6EVVcdvLLeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="323908c9-8961-443b-bd91-5f1a534757b1" CvElementArea="121, 237, 96, 28" CvTextArea="148, 243, 42, 18" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="123, 239, 94, 25" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Log In' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Log In' /&gt;" Guid="7d7db122-ff99-4bd0-bd38-f107752afd62" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UiDemo' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="323908c9-8961-443b-bd91-5f1a534757b1" CvElementArea="121, 237, 96, 28" CvTextArea="148, 243, 42, 18" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="149, 242, 41, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Log In' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Log In' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Log In' /&gt;" Guid="15de632a-c7a1-48bf-b9c0-38c45950e5b8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="04be3d12ee5fb2e15944de9db540e2c9.png" xmlns="">0ltDbfEbz80SRq0z88qangw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

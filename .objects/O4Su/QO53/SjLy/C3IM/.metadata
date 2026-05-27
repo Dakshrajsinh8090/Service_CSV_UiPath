@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Calculate",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "C3IMVVGnYk62TpFvhgreww",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/C3IMVVGnYk62TpFvhgreww",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/SjLybsRbNk2h8nBbyx851A",
+  "Created": "2025-12-15T06:14:54.5422835Z",
+  "Updated": "2025-12-15T06:14:54.5422835Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

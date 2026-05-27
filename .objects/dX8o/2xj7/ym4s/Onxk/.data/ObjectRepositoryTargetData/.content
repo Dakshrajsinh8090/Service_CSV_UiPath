@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_8lrU1XVrEOoVeiXUiN0Bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="1a6871c4-1e95-4c51-bdca-1cdd8d27b243" CvElementArea="1206, 965, 134, 51" CvTextArea="1231, 981, 43, 17" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="1209, 967, 90, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl id=':er' tableRow='4' tag='TABLE' /&gt;&lt;webctrl id=':et' tableRow='1' tag='DIV' /&gt;" Guid="aa59f4ae-99ec-41f6-af4d-0760b3e54c26" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inbox (9) - dj80902003@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c88865f64c7d24b22c6b941b86d367c.png" xmlns="">0wV_iIXJepU2YTdR1XItSlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

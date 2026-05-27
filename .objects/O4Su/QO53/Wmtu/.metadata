@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome BMI Calculator",
+  "Type": "Screen",
+  "Id": "WmtupG3LOkmIc0r303k9bQ",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/WmtupG3LOkmIc0r303k9bQ",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/QO53BnjRuECCvGMA5FOeAw",
+  "Created": "2025-12-15T05:30:30.6521477Z",
+  "Updated": "2025-12-15T05:30:30.6521477Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Inbox (9) - dj80902003@gmail.com - Gma",
+  "Type": "Screen",
+  "Id": "ym4spBfx2U25qedOt9Eq7Q",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/ym4spBfx2U25qedOt9Eq7Q",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/2xj7vD1DykSAqdNE0iYV3Q",
+  "Created": "2025-12-17T06:44:17.9364248Z",
+  "Updated": "2025-12-17T06:44:17.9364248Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

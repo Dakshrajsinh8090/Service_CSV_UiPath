@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome BMI Calculator",
+  "Type": "App",
+  "Id": "O4SuZFQKUEG8UKwPD7vjRw",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/O4SuZFQKUEG8UKwPD7vjRw",
+  "Created": "2025-12-15T05:30:30.5956076Z",
+  "Updated": "2025-12-15T05:30:30.5956076Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

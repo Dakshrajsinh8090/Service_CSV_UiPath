@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HXujoUFonEmGM_xO9zxgcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="1cb94c3c-ddd4-4726-966f-9c62f03e1033" CvElementArea="1538, 953, 104, 43" CvTextArea="1577, 965, 35, 18" CvTextArgument="Link" CvType="Button" DesignTimeRectangle="1540, 954, 100, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='ms-Button ms-Button--default root-175' parentid='link-button' tag='BUTTON' type='button' aaname='Link' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Link' /&gt;" Guid="19c1e973-be8c-4c97-aafe-5d9c37f27188" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1cb94c3c-ddd4-4726-966f-9c62f03e1033" CvTextArea="1234, 865, 180, 22" CvTextArgument="Job Title: HR Manager" CvType="Text" DesignTimeRectangle="1236, 862, 176, 23" FuzzySelectorArgument="&lt;webctrl aaname='Job Title: ' type='' tag='SPAN' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Job Title: HR Manager' /&gt;" Guid="2abd1e04-9f62-4c14-b390-be033f8e6b30" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Y="4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="276c2531a82ebc94a12178366dab4d59.png" xmlns="">0TnoYs1YQBUaKP_b-k1-ABQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

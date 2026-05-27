@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3GKVvrwJNE2xd1tSdoz1jQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" CvElementArea="363, 492, 287, 41" CvType="InputBox" DesignTimeRectangle="366, 493, 282, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='cheightmeter' type='text' tag='INPUT' class='infull inuick' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8128857c-51b0-4c2d-a22c-99164a8340a3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" CvTextArea="290, 501, 60, 22" CvTextArgument="Height" CvType="Text" DesignTimeRectangle="290, 492, 72, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Height' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Height' /&gt;" Guid="5c55c0a5-5e69-48a2-ab4b-57ac5a29beab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="774443e2c28cc5e5cc53d618a8e5d2ef.png" xmlns="">07NMQyTQF8kq3YRn96qjRKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

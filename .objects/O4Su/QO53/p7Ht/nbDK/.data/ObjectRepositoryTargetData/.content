@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H8YVdR7U-E-illU2LJlRtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" CvElementArea="368, 407, 142, 40" CvType="InputBox" DesignTimeRectangle="370, 408, 137, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='calinputtable' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='cage' type='text' tag='INPUT' class='inhalf' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd528c24-7453-4c66-94f3-1a1ec5de1096" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" CvTextArea="289, 416, 37, 22" CvTextArgument="Age" CvType="Text" DesignTimeRectangle="290, 407, 77, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='calinputtable' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Age' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Age' /&gt;" Guid="cecff46c-477c-4639-af7a-4a1773f429f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8914a6406b9e20e86fab124f17486e7c.png" xmlns="">03NE9-M5RWEWM_KHdhuvB7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

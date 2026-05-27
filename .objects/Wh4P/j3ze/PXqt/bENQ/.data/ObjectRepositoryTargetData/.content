@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Zfu8k0K6ik6lPEtE3x8-fw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="e8149947-5f60-407f-830b-9f0b155718a9" CvElementArea="1572, 505, 144, 49" CvTextArea="1586, 521, 114, 21" CvTextArgument="New Supplier" CvType="Button" DesignTimeRectangle="1574, 507, 140, 45" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='sc-fjdhpX ddwmgh' aaname='New Supplier' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New Supplier' /&gt;" Guid="d69223f4-7cf8-4eb0-a9ec-ee58e5c9b0ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e8149947-5f60-407f-830b-9f0b155718a9" CvElementArea="1572, 505, 144, 49" CvTextArea="1586, 521, 114, 21" CvTextArgument="New Supplier" CvType="Button" DesignTimeRectangle="1582, 517, 124, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='controlWrapper' tag='SPAN' type='' class='sc-jzJRlG hxyKHp' aaname='New Supplier' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New Supplier' /&gt;" Guid="f9d15a61-388e-43ac-be51-cce936484a6b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b774d83cae1483a971f435c4c8694cb7.png" xmlns="">0U1o6khvAgEiijRaYe8d7Ig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

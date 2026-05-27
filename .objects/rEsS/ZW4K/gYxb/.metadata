@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UiDemo",
+  "Type": "Screen",
+  "Id": "gYxbDI364UqpGkmOh7QzBQ",
+  "Reference": "ENtcW7luBESDoAZPPL9Wlw/gYxbDI364UqpGkmOh7QzBQ",
+  "ParentRef": "ENtcW7luBESDoAZPPL9Wlw/ZW4Kyc5-CkWrOR3oOlu5cQ",
+  "Created": "2026-05-25T08:08:33.2669383Z",
+  "Updated": "2026-05-25T08:08:33.2669383Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

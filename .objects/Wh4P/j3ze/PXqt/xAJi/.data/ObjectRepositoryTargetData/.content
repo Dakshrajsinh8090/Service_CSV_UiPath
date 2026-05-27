@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="va1VE6_0n0KcVDfEGxmG2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="8a95d8c2-c379-49e4-876f-7c3dd2620d97" CvElementArea="1538, 410, 104, 44" CvType="Button" DesignTimeRectangle="1540, 411, 100, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='link-button' tag='BUTTON' type='button' class='ms-Button ms-Button--default root-175' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="95c63249-0ae1-4f78-ab1f-ca4a33ee64e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a95d8c2-c379-49e4-876f-7c3dd2620d97" CvElementArea="1538, 410, 104, 44" CvTextArea="1577, 424, 35, 17" CvTextArgument="Link" CvType="Button" DesignTimeRectangle="1566, 420, 58, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='id__255' tag='SPAN' type='' class='ms-Button-label label-176' aaname='Link' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Link' /&gt;" Guid="4a65f82d-eb83-4c67-ac85-1a27aea1fcff" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="01cc0a78e5c54f99dc4ce864886a920f.png" xmlns="">0BK-RgRlGr028io9wQYlZNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

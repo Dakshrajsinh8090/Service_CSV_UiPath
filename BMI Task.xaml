@@ -1,0 +1,285 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="BMI_Task" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="BMI_Task_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="BMI_Task" sap:VirtualizedContainerService.HintSize="1301.2,3140" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="age" />
+      <Variable x:TypeArguments="sd:DataTable" Name="m" />
+      <Variable x:TypeArguments="x:String" Name="k" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="620.8,3116.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\dell touch\OneDrive\Desktop\Bookkkkk1.xlsx">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="587.2,2824" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="553.6,201.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_4" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[m]" />
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome BMI Calculator(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="553.6,2562.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,2322.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[m]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="486.4,2260.8" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484.8,2086.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="gender" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Age'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Text="[CurrentRow(0).ToString]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" ContentHash="05ECeYk6zEe-EEB4ilD2eA" CvElementArea="368, 407, 142, 40" CvType="InputBox" DesignTimeRectangle="370, 408, 137, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='calinputtable' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='cage' type='text' tag='INPUT' class='inhalf' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="adebc1e2-5d66-42f3-a424-242986f5c834" InformativeScreenshot="8914a6406b9e20e86fab124f17486e7c.png" IsResponsive="True" Reference="ENtcW7luBESDoAZPPL9Wlw/tl4yWs-YCkGRxl0JioxOqA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="103a6513-3fef-490a-ae58-51c9c7531915" CvTextArea="289, 416, 37, 22" CvTextArgument="Age" CvType="Text" DesignTimeRectangle="290, 407, 77, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='calinputtable' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Age' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Age' /&gt;" Guid="6e47c282-e962-42a4-85a8-c994c83d5e62" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                              <ui:CommentOut.Body>
+                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="467.2,164.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Assign sap:VirtualizedContainerService.HintSize="433.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[gender]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">[CurrentRow("gender").ToString.Trim.ToLower]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </ui:CommentOut.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:CommentOut>
+                            <If Condition="[CurrentRow(3).ToString() = &quot;male&quot;]" sap:VirtualizedContainerService.HintSize="451.2,620" sap2010:WorkflowViewState.IdRef="If_2">
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,240.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Radiobutton'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180.8" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="4fb26e0a-e3e2-46a7-9d09-2ba33fdc1a8a" ContentHash="mWRNKHOVs0yxOQGYpMrU4g" CvElementArea="367, 507, 29, 29" CvTextArea="404, 511, 45, 18" CvTextArgument="Male" CvType="RadioButton" DesignTimeRectangle="370, 509, 78, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='calinputtable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='LABEL' /&gt;" Guid="f74f0e59-5010-4f37-a069-2b8c228c00b5" InformativeScreenshot="1ce5157435b89d88151ca9f82fc0c0a5.png" Reference="ENtcW7luBESDoAZPPL9Wlw/UBl3ttNNHkasGM8JyxerIg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,240.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Radiobutton(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180.8" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="4fb26e0a-e3e2-46a7-9d09-2ba33fdc1a8a" ContentHash="wFfXIHMvokSuQl4beE0fTA" CvElementArea="461, 507, 30, 30" CvTextArea="499, 511, 67, 18" CvTextArgument="Female" CvType="RadioButton" DesignTimeRectangle="465, 509, 102, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='calinputtable' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='Female' tableRow='2' tag='LABEL' /&gt;" Guid="8dca49e0-55a0-486f-b826-b0fde7ba1a2b" InformativeScreenshot="9a05d1fd85267dbe3720b01044de1aa2.png" Reference="ENtcW7luBESDoAZPPL9Wlw/RqpuRXOxaUi-j-27Xyb_kg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Height'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Text="[CurrentRow(1).ToString]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" ContentHash="3GKVvrwJNE2xd1tSdoz1jQ" CvElementArea="363, 492, 287, 41" CvType="InputBox" DesignTimeRectangle="366, 493, 282, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='cheightmeter' type='text' tag='INPUT' class='infull inuick' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8128857c-51b0-4c2d-a22c-99164a8340a3" InformativeScreenshot="774443e2c28cc5e5cc53d618a8e5d2ef.png" IsResponsive="True" Reference="ENtcW7luBESDoAZPPL9Wlw/iF-dMLkoKUmkcLx7CCeZDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" CvTextArea="290, 501, 60, 22" CvTextArgument="Height" CvType="Text" DesignTimeRectangle="290, 492, 72, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Height' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Height' /&gt;" Guid="5c55c0a5-5e69-48a2-ab4b-57ac5a29beab" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.VerifyOptions>
+                                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                </uix:VerifyExecutionTypeIntoOptions>
+                              </uix:NTypeInto.VerifyOptions>
+                            </uix:NTypeInto>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Weight'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Text="[CurrentRow(2).ToString]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" ContentHash="tLXDfyGDhE-MSm80O6uHGg" CvElementArea="364, 534, 286, 41" CvType="InputBox" DesignTimeRectangle="366, 535, 282, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ckg' type='text' tag='INPUT' class='infull inuick' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="304c114b-6d79-44d3-8b92-6ae24ecef969" InformativeScreenshot="2b0e85a888f904455f0ab313ee23fadb.png" IsResponsive="True" Reference="ENtcW7luBESDoAZPPL9Wlw/csK1JxDwDkqKTsHhAZGa9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" CvTextArea="289, 542, 65, 22" CvTextArgument="Weight" CvType="Text" DesignTimeRectangle="290, 534, 72, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='metricheightweight' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Weight' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Weight' /&gt;" Guid="ef5c0df5-db1e-401a-82ab-6870aec4d9c8" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="3a7d4712-4973-484e-b9a4-ef98f989af3b" ContentHash="bFNrK84QMEee5fuPjD3DsA" CvElementArea="367, 586, 174, 55" CvTextArea="387, 602, 91, 20" CvTextArgument="Calculate" CvType="Button" DesignTimeRectangle="370, 588, 171, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='4' parentid='content' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' type='submit' /&gt;" Guid="50e20b04-bdf9-426a-8944-6e3424ff2ce8" InformativeScreenshot="0cd4257c85d25cee1cf1993cefb5963a.png" Reference="ENtcW7luBESDoAZPPL9Wlw/C3IMVVGnYk62TpFvhgreww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NGetText DisplayName="Get Text 'BMI = 20.1 kgm2'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="f02d078f-bfed-4dc7-8f00-fd1d5a8bb3e8" TextString="[k]" Version="V5">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="calculator.net/bmi-calculator.html" CVScreenId="128f3c18-973c-42fc-88e1-83c3080b4322" ContentHash="8OrFvsMiUES7K92w6WOggQ" CvType="AnyWordGroup" DesignTimeRectangle="713, 464, 180, 25" FullSelectorArgument="&lt;webctrl tag='B' /&gt;" Guid="5ec439db-a0ed-41f6-b743-d02dcffdc75b" InformativeScreenshot="74161a85ab17f8a690b7fe90c1ef6345.png" Reference="ENtcW7luBESDoAZPPL9Wlw/gbMEbXw07UWYTaj6Jdv-EA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              </uix:NGetText.Target>
+                            </uix:NGetText>
+                            <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;E2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="451.2,183.2" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[k]" />
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                    </ui:ForEachRow>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="FW8x044eVkmSozbhi_XGlg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAMUExURQgICDNmmY6NkP///zGrQCAAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAR0lEQVQ4T83OMQ4AIAhD0Yr3v7ODk5hCByX8wYG8CLAk+IEPZjNIBYPUCvDeAQA4331CJaDJIF1RAGgyuD8PbvgEaBqIS8ECmugIIc6JmWoAAAAASUVORK5CYII=" InformativeScreenshot="35d0943a3a2e8ea2ed9a016c7ceb345b.jpg" Reference="ENtcW7luBESDoAZPPL9Wlw/SjLybsRbNk2h8nBbyx851A" Selector="&lt;html app='chrome.exe' title='BMI Calculator' /&gt;" Url="https://www.calculator.net/bmi-calculator.html?cage=19&amp;csex=m&amp;cheightfeet=5&amp;cheightinch=10&amp;cpound=160&amp;cheightmeter=173&amp;ckg=69&amp;printit=0&amp;ctype=metric&amp;x=Calculate" Version="V2" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+    </ueab:ExcelApplicationCard>
+  </Sequence>
+</Activity>

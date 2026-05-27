@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ObtD7L-k0UaHE6vtZAnafg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpasamples.com/suppliers" CVScreenId="a50a57cd-1300-459e-acb4-dd8252e9f7ed" CvElementArea="730, 729, 439, 44" CvType="InputBox" DesignTimeRectangle="734, 732, 433, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='TextField431' tag='INPUT' type='text' class='ms-TextField-field field-146' aaname='No. Employees' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d16a43ea-dcf3-4932-9d28-57f7d881f10f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Demo App' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a50a57cd-1300-459e-acb4-dd8252e9f7ed" CvTextArea="731, 705, 110, 20" CvTextArgument="No. Employees" CvType="Text" DesignTimeRectangle="733, 697, 443, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='TextFieldLabel433' tag='LABEL' type='' class='ms-Label root-152' aaname='No. Employees' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='No. Employees' /&gt;" Guid="16d74f64-2121-4ca2-bb43-e68a45159ad8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="20" Y="-12" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4762f92279cb2906121f63de9383b0c5.png" xmlns="">0ofTW281acEC7BXuc72AcpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
