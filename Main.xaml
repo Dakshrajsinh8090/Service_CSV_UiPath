@@ -1,0 +1,474 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:do="clr-namespace:DocumentFormat.OpenXml;assembly=DocumentFormat.OpenXml.Framework" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>DocumentFormat.OpenXml</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>DocumentFormat.OpenXml.Framework</AssemblyReference>
+      <AssemblyReference>DocumentFormat.OpenXml</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1289.2,994.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_Excel" />
+      <Variable x:TypeArguments="x:String" Name="str_Name" />
+      <Variable x:TypeArguments="x:String" Name="str_BirthMonth" />
+      <Variable x:TypeArguments="x:String" Name="Str_UnicornName" />
+      <Variable x:TypeArguments="do:DateTimeValue" Name="BirthDate" />
+      <Variable x:TypeArguments="ui:DatabaseConnection" Name="dt_Connection" />
+      <Variable x:TypeArguments="x:Int32" Name="dt_Affect" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="510.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,164.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="D:\Unicorn Name.xlsx">
+            <ueab:ExcelApplicationCard.Body>
+              <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622.4,2917.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="588.8,201.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[dt_Excel]" />
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_Excel]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="588.8,2656" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                    <ui:ForEachRow.Body>
+                      <ActivityAction x:TypeArguments="sd:DataRow">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="587.2,2483.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="553.6,2375.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="552,1886.4" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="518.4,56.8" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[str_Name]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">[CurrentRow("Name").ToString()]</InArgument>
+                                  </Assign.Value>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Assign>
+                                <Assign sap:VirtualizedContainerService.HintSize="518.4,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="do:DateTimeValue">[BirthDate]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="do:DateTimeValue">[New DocumentFormat.OpenXml.DateTimeValue() With { .Value = DateTime.ParseExact(CurrentRow("BirthDate").ToString, "M/d/yyyy", System.Globalization.CultureInfo.InvariantCulture) }]</InArgument>
+                                  </Assign.Value>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Assign>
+                                <Assign sap:VirtualizedContainerService.HintSize="518.4,56.8" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[str_BirthMonth]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">[BirthDate.Value.ToString("MMMM")]</InArgument>
+                                  </Assign.Value>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Assign>
+                                <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="518.4,1416" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="5">
+                                  <ui:RetryScope.ActivityBody>
+                                    <ActivityAction>
+                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="516.8,1209.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Find Unicorn Name" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1149.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="ef530628-9e26-44f9-9bb5-188644d3f55d" Version="V2" WindowResize="Maximize">
+                                          <uix:NApplicationCard.Body>
+                                            <ActivityAction x:TypeArguments="x:Object">
+                                              <ActivityAction.Argument>
+                                                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                              </ActivityAction.Argument>
+                                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,909.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''What is your name?*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="ef530628-9e26-44f9-9bb5-188644d3f55d" Text="[str_Name + &quot;[k(Enter)]&quot;]" Version="V5">
+                                                  <uix:NTypeInto.Target>
+                                                    <uix:TargetAnchorable BrowserURL="rpasamples.com/findunicornname" CVScreenId="f98f4c6d-2ec5-4e96-904b-1fa365cb3787" CvElementArea="742, 383, 455, 55" CvType="InputBox" DesignTimeRectangle="744, 383, 452, 52" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='txtName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='txtName' tag='INPUT' type='text' class='text-input set-font' placeholder='Enter your name' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9c2d0c85-2876-4988-8dfb-01a2df466622" InformativeScreenshot="129b0c9992b547faa3b1e5fd7528d7e5.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.Anchors>
+                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                          <uix:Target CVScreenId="f98f4c6d-2ec5-4e96-904b-1fa365cb3787" CvTextArea="741, 357, 193, 18" CvTextArgument="What is your name?*" CvType="Text" DesignTimeRectangle="744, 352, 190, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl class='label' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='label' tag='SPAN' type='' aaname='What is your name?*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='What is your name?*' /&gt;" Guid="dd5b2618-fb28-4d2d-a744-b85f2f8bac31" SearchSteps="FuzzySelector, CV" />
+                                                        </scg:List>
+                                                      </uix:TargetAnchorable.Anchors>
+                                                      <uix:TargetAnchorable.PointOffset>
+                                                        <uix:PointOffset />
+                                                      </uix:TargetAnchorable.PointOffset>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NTypeInto.Target>
+                                                </uix:NTypeInto>
+                                                <uix:NSelectItem DisplayName="Select Item ''What month were you bor…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[str_BirthMonth]" ScopeIdentifier="ef530628-9e26-44f9-9bb5-188644d3f55d" Version="V5">
+                                                  <uix:NSelectItem.Items>
+                                                    <scg:List x:TypeArguments="x:String" Capacity="13">
+                                                      <x:String>Select your birth month</x:String>
+                                                      <x:String>January</x:String>
+                                                      <x:String>February</x:String>
+                                                      <x:String>March</x:String>
+                                                      <x:String>April</x:String>
+                                                      <x:String>May</x:String>
+                                                      <x:String>June</x:String>
+                                                      <x:String>July</x:String>
+                                                      <x:String>August</x:String>
+                                                      <x:String>September</x:String>
+                                                      <x:String>October</x:String>
+                                                      <x:String>November</x:String>
+                                                      <x:String>December</x:String>
+                                                    </scg:List>
+                                                  </uix:NSelectItem.Items>
+                                                  <uix:NSelectItem.Target>
+                                                    <uix:TargetAnchorable BrowserURL="rpasamples.com/findunicornname" CVScreenId="f98f4c6d-2ec5-4e96-904b-1fa365cb3787" CvElementArea="741, 530, 449, 53" CvType="InputBox" DesignTimeRectangle="744, 531, 445, 50" DesignTimeScaleFactor="1.25" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='selMonth' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='selMonth' tag='SELECT' type='' class='down-chevron set-font' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="12af9144-d0a4-4af5-9f7d-a6861a105a06" InformativeScreenshot="4c8c590d055acaa6148e39be2c06fcd9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.Anchors>
+                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                          <uix:Target CVScreenId="f98f4c6d-2ec5-4e96-904b-1fa365cb3787" CvTextArea="741, 504, 264, 18" CvTextArgument="What month were you born?" CvType="Text" DesignTimeRectangle="744, 498, 262, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='What month were you born?' class='label' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='What month were you born?' class='label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='What month were you born?' /&gt;" Guid="284e0f6f-b37c-48a0-9ec8-5a2f48fbb5d1" SearchSteps="FuzzySelector, CV" />
+                                                        </scg:List>
+                                                      </uix:TargetAnchorable.Anchors>
+                                                      <uix:TargetAnchorable.PointOffset>
+                                                        <uix:PointOffset />
+                                                      </uix:TargetAnchorable.PointOffset>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NSelectItem.Target>
+                                                </uix:NSelectItem>
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Get Unicorn Name''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ef530628-9e26-44f9-9bb5-188644d3f55d" Version="V5">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable BrowserURL="rpasamples.com/findunicornname" CVScreenId="f98f4c6d-2ec5-4e96-904b-1fa365cb3787" CvElementArea="854, 639, 230, 59" CvTextArea="880, 660, 176, 18" CvTextArgument="Get Unicorn Name" CvType="Button" DesignTimeRectangle="857, 640, 225, 55" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl id='getNameButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='getNameButton' tag='BUTTON' type='' class='submit-button set-font' aaname='Get Unicorn Name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Get Unicorn Name' /&gt;" Guid="cc69884c-0a75-49f5-878c-e8f809a1e6ec" InformativeScreenshot="cf8c48f28a17edaa43b1b01927274374.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.PointOffset>
+                                                        <uix:PointOffset />
+                                                      </uix:TargetAnchorable.PointOffset>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NClick.Target>
+                                                  <uix:NClick.VerifyOptions>
+                                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                      <uix:VerifyExecutionOptions.Retry>
+                                                        <InArgument x:TypeArguments="x:Boolean" />
+                                                      </uix:VerifyExecutionOptions.Retry>
+                                                      <uix:VerifyExecutionOptions.Timeout>
+                                                        <InArgument x:TypeArguments="x:Double" />
+                                                      </uix:VerifyExecutionOptions.Timeout>
+                                                    </uix:VerifyExecutionOptions>
+                                                  </uix:NClick.VerifyOptions>
+                                                </uix:NClick>
+                                                <uix:NGetText DisplayName="Get Text ''Energetic Crystal-Dazzl…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="ef530628-9e26-44f9-9bb5-188644d3f55d" TextString="[Str_UnicornName]" Version="V5">
+                                                  <uix:NGetText.Target>
+                                                    <uix:TargetAnchorable BrowserURL="rpasamples.com/findunicornname" DesignTimeRectangle="852, 799, 251, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' type='' class='output-text' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b6c10db2-daea-4183-aa22-2c28fff7f9fd" InformativeScreenshot="9078e4987d66fce531312cee32837190.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.PointOffset>
+                                                        <uix:PointOffset />
+                                                      </uix:TargetAnchorable.PointOffset>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NGetText.Target>
+                                                </uix:NGetText>
+                                              </Sequence>
+                                            </ActivityAction>
+                                          </uix:NApplicationCard.Body>
+                                          <uix:NApplicationCard.TargetApp>
+                                            <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIJSURBVDhPY2DADZgZGBi40AWJBmoKPOpBLlI26OJ4QUNDg35RUZEKiJ0XrRyVH6NcAGJHRkZKtrW1WaKrxwBr2vvXb9qwcc6qytas7d35//ZPzv6/ramvd8OGDS2ruyfvR1ePAfa2T546q7Xr9NmDR+6umlT0f01P2v/zyze8mdLRdfRw94xl6OoxwPz587PWrVv3v7i4+H9FRcX/zOSU/+nJKf83btz4f+3atZ3o6tEB+5YtW94ZGRn9N7Y0++/s7Pzf2Nj4v4e/z//Q0ND/mzdv/m1tbS2FrgkO7O3ttffu3QvWZJPq99/c3Py/lZXV/8Dm7P8uLi7/V61a9X/ChAne6PrgIDAw0OD79+//Y2Ji/tvZ2f0HucTPz+9/QEAAGL9///7/ip7Jy03VNHnR9YKBhoaGwo8fP/7/+/fv/7Nnz/4/efIEjJ8+ffr/79+//0Hg3vIt/5tj01zR9cLBxYsXT4NVYgEPb97+/2r59v8szMzC6PrgoKKiQuPOnTvP0TU/efLkY19NQ+blaUvOTUwvzEfXhwLq6uqOzZ07FxR1RzZu3Lhr3rx5/xsbG2/D5KWFRVUZGBhYUXUhgZ7k5KeLCwr+d8bFzW9LTm6el539f0p6+l8GBgYWdLVYwUQzs5oD7u4PuoyN46p0dZ0PuLvfmGZuPhddHV7Ay8rKB2NzsbBgjzYoAADapBEELFg1qwAAAABJRU5ErkJggg==" InformativeScreenshot="884e9ad310198ff30914b27e91fd19d7.jpg" Selector="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" Url="https://www.rpasamples.com/findunicornname" Version="V2" />
+                                          </uix:NApplicationCard.TargetApp>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NApplicationCard>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:RetryScope.ActivityBody>
+                                  <ui:RetryScope.Condition>
+                                    <ActivityFunc x:TypeArguments="x:Boolean" />
+                                  </ui:RetryScope.Condition>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:RetryScope>
+                                <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.SelectedSheet.Cell(&quot;C2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="518.4,183.2" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[Str_UnicornName]">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ueab:WriteCellX>
+                              </Sequence>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="552,225.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Invalid date on row index: &quot; + dt_Excel.Rows.IndexOf(CurrentRow).ToString()]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="552,89.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="553.6,48" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,168.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[str_BirthMonth]" />
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEachRow.Body>
+                  </ui:ForEachRow>
+                </Sequence>
+              </ActivityAction>
+            </ueab:ExcelApplicationCard.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ueab:ExcelApplicationCard>
+          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="D:\Qwip\Main.xlsx">
+            <ueab:ExcelApplicationCard.Body>
+              <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,288" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts '11'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InScope="[Excel]" ScopeIdentifier="Excel" Shortcuts="[d(hk)][d(ctrl)d(shift)]=[u(shift)u(ctrl)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.Target>
+                      <uix:TargetAnchorable CVScreenId="a3713ffd-a349-4c3c-a6b0-fc0766b16850" ContentHash="AlaDTqOeEUCwJrVc4CWVSw" CvTextArea="917, 392, 45, 35" CvTextArgument="11" CvType="Text" DesignTimeRectangle="768, 379, 202, 61" ElementType="Cell" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='D2' cls='XLSpreadsheetCell' name='D2' tableRow='2' /&gt;" Guid="45eeb38d-4924-4bee-8fb1-c222dafb0409" InformativeScreenshot="f8de30af638d6aa6c48b14cde361af19.png" Reference="ENtcW7luBESDoAZPPL9Wlw/xqd6lwkLuE6Q41OSEtce7A" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Main.xlsx - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NKeyboardShortcuts.Target>
+                  </uix:NKeyboardShortcuts>
+                </Sequence>
+              </ActivityAction>
+            </ueab:ExcelApplicationCard.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ueab:ExcelApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,554.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_4" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="D:\Invoice.xlsx">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476.8,252.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ReadRangeX SaveTo="{x:Null}" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="443.2,192.8" sap2010:WorkflowViewState.IdRef="ReadRangeX_2" Range="[Excel.Sheet(&quot;Sheet 2&quot;).Range(&quot;A1&quot;)]" />
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+    </ueab:ExcelApplicationCard>
+    <ui:InsertDataTable ContinueOnError="{x:Null}" AffectedRecords="[dt_Affect]" DataTable="[dt_Excel]" DisplayName="Insert" ExistingDbConnection="[dt_Connection]" sap:VirtualizedContainerService.HintSize="510.4,194.4" sap2010:WorkflowViewState.IdRef="InsertDataTable_1" TableName="uipath" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510.4,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[dt_Affect.ToString]" />
+  </Sequence>
+</Activity>

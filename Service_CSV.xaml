@@ -108,9 +108,10 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.Linq.Parallel</AssemblyReference>
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Service_CSV" sap:VirtualizedContainerService.HintSize="1289.2,6660" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Service_CSV" sap:VirtualizedContainerService.HintSize="1289.2,6777.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtJobs" />
       <Variable x:TypeArguments="x:String" Name="I_Name" />
@@ -135,6 +136,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="dj80902003@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="588.8,175.2" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" QueueItemStates="All" QueueName="excel" Result="[Q_Data]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="588.8,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Hi&quot;]" />
     <ui:ForEach x:TypeArguments="ui:QueueItem" CurrentIndex="{x:Null}" DisplayName="For Each currentQueueItem" sap:VirtualizedContainerService.HintSize="588.8,6461.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Q_Data]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="ui:QueueItem">
